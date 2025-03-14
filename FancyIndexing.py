@@ -1,0 +1,1 @@
+"""Extract every alternate row from a 5×5 matrix."""
