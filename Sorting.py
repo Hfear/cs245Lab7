@@ -2,7 +2,7 @@
 
 import numpy as np
 
-matrix = np.random.randint(0, 10, size=(10, 10))
+matrix = np.random.randint(10, size=(10, 10))
 
 print(matrix)
 print(matrix[matrix[:, 0].argsort()])
