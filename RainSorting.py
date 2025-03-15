@@ -1,9 +1,6 @@
 import numpy as np
-
 np.random.seed(42)
-
 rainfall = np.random.gamma(shape=2.0, scale=2.0, size=365)  # Synthetic daily rainfall data
-
 rainfall[np.random.choice(365, 100, replace=False)] = 0  # 100 dry days
 
 """Sorting Rainfall Data:
